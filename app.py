@@ -9,8 +9,10 @@ import config
 import pandas as pd
 
 # Load model
-model = tf.keras.models.load_model(config.MODEL_PATH + "heart_model.h5")
-
+model = tf.keras.models.load_model(
+    config.MODEL_PATH + "heart_model.h5",
+    compile=False
+)
 st.title("❤️ Heart Sound Disease Detection")
 
 uploaded_file = st.file_uploader("Upload Heart Sound (.wav)", type=["wav"])
