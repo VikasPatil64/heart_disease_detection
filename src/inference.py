@@ -15,7 +15,7 @@ import config
 # =========================
 # LOAD MODEL
 # =========================
-model = tf.keras.models.load_model(config.MODEL_PATH + "heart_model.keras")
+model = tf.keras.models.load_model(config.MODEL_PATH + "heart_model.h5")
 
 
 # =========================
