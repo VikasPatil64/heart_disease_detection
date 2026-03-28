@@ -9,7 +9,7 @@ import config
 import pandas as pd
 
 # Load model
-model = tf.keras.models.load_model(config.MODEL_PATH + "heart_model.keras")
+model = tf.keras.models.load_model(config.MODEL_PATH + "heart_model.h5")
 
 st.title("❤️ Heart Sound Disease Detection")
 
