@@ -24,13 +24,6 @@ env/
 Thumbs.db
 
 # =========================
-# Models (VERY IMPORTANT)
-# =========================
-models/
-*.h5
-*.keras
-
-# =========================
 # Data (RAW + PROCESSED)
 # =========================
 data/raw/
