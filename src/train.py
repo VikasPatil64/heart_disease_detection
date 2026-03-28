@@ -107,7 +107,7 @@ history = model.fit(
 # =========================
 # SAVE MODEL
 # =========================
-model.save(config.MODEL_PATH + "heart_model.keras")
+model = tf.keras.models.load_model(config.MODEL_PATH + "heart_model.h5")
 
 print("Model saved!")
 
